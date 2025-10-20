@@ -109,8 +109,7 @@ Isela L.
 <p align="center">Hecho con 💕 y ☕ por Isela</p> ```
 💡 Recomendaciones para tu GitHub:
 
-Sube una imagen de portada con estilo similar a tu banner de LinkedIn (cyberpunk-retro con detalles tecnológicos 💜).
-👉 Nómbrala por ejemplo banner.png y cámbiala en la primera línea del README.
+
 
 En requirements.txt, incluye:
 

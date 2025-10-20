@@ -1,0 +1,29 @@
+// intents.json
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "buenos dias", "que tal", "saludos"],
+      "responses": ["¡Hola! Soy Lumi, tu asistente. ¿En qué puedo ayudarte hoy?", "¡Buen día! Dime qué necesitas.", "Hola, estoy lista para asistirte."],
+      "suggestions": ["Horario de atención", "Ver productos", "Estado de mi pedido"]
+    },
+    {
+      "tag": "horario",
+      "patterns": ["cual es su horario", "cuando abren", "a que hora cierran"],
+      "responses": ["Nuestro horario es de Lunes a Viernes de 9:00 a 18:00 hrs.", "Operamos de 9 a 6, de L-V. ¿Algo más?"],
+      "suggestions": ["¿Dónde están ubicados?", "Regresar al menú principal"]
+    },
+    {
+      "tag": "personalizada",
+      "patterns": ["tengo un problema", "quiero hablar con un asesor"],
+      "responses": ["Entiendo. Para poder ayudarte, ¿puedes describir brevemente tu consulta?", "Permíteme conectar con un especialista, ¿cuál es el motivo de tu solicitud?"],
+      "suggestions": ["Problema técnico", "Consulta de facturación", "Llamar a un asesor"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adios", "hasta luego", "gracias y adios"],
+      "responses": ["¡Hasta pronto!", "Fue un gusto asistirte. ¡Que tengas un gran día!"],
+      "suggestions": []
+    }
+  ]
+}
